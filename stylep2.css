@@ -1,0 +1,210 @@
+.logo-palma {
+    width: 15%;
+}
+header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e3e7ea;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.container {
+    text-align: center;
+}
+.navbar {
+    background-color: #ACBB98; /* Background color of the navbar */
+    outline: #5C6D57 solid 5px;
+
+}
+
+.navbar li {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar li a {
+    text-decoration: none;
+    color: #5C6D57; /* Text color */
+    padding: 10px 15px;
+    font-family: OCR A Std, monospace;
+}
+
+.navbar li a:hover {
+    color: #4a2b13;
+}
+.navbar ul {
+    display: none; /* Hide dropdown menus by default */
+    position: absolute;
+    color: #5C6D57;
+    background-color: #ACBB98; /* Background color of the dropdown */
+    z-index: 1; /* Ensure dropdowns appear above other content */
+}
+
+.navbar li:hover > ul {
+    display: block; /* Show dropdown on hover */
+    margin-top: 230px; /* Optional: adjust spacing between navbar item and dropdown */
+}.content {
+    padding: 16px;
+  }
+.dropdown-item {
+    padding: 8px 12px; /* Padding inside dropdown items */
+    color: #333333; /* Text color */
+    display: block;
+    text-decoration: none; /* Remove underline from links */
+}
+
+.navbar .search-container {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .form-control {
+    width: 250px; /* search input */
+    height: 30px; /* search input */
+}
+
+.navbar .btn {
+    height: 30px; /* search button */
+    color: #004a2f;
+}
+.search-container input[type="search"] {
+    flex: 1; /* Take remaining space */
+    margin-right: 20px;
+}
+.text h1 {
+    font-family: 'HelveticaBold';
+    color: #243924;
+    text-align: center;
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+h2 {
+    font-family: 'HelveticaBold';
+    color: #000;
+    text-align: center;
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+p{
+        font-size: 24px;
+        color: #000;
+        text-align: center;
+        font-weight: normal;
+        line-height: 1.2em;
+        font-family: "Lucida Console", "Courier New", monospace;
+        background-color: #ACBB98;
+        padding-bottom: 15px;
+        margin-bottom: 0px;
+}
+.text { 
+    outline: #5C6D57 solid 5px;
+    background-color: #ACBB98;
+}
+.card-body {
+    background-color: #ACBB98;
+}
+.card img {
+    width: 500px; /* Adjust as needed */
+    object-fit: cover;
+}
+.card {
+    background-color:#5C6D57 ;
+    outline: #5C6D57 solid 5px;
+}
+div.container.mt-5 {
+    padding: 2%;
+    background-color: #5C6D57;
+    width: 1300px;
+    height: 565px;
+}
+#bgcard {
+    width: 1520px;
+    height: 565.13px;
+    background-color: #ACBB98;
+    outline: #5C6D57 solid 5px;
+}
+/* Additional custom CSS for smaller cards */
+
+.card {
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card-body {
+    padding: 15px; /* Adjust padding as per your design */
+}
+
+.card-title {
+    font-size: 1rem; /* Adjust font size as needed */
+    margin-bottom: 5px;
+}
+
+.card-text {
+    font-size: 20px; /* Adjust font size as needed */
+    color: #555;
+    margin-bottom: 10px;
+}
+.smaller-cards .card {
+    width: 70%; /* Adjust the width to fit your layout */
+}
+
+.smaller-cards .card-img-top {
+    max-width: 100%; /* Ensure images don't exceed the card width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+@media (min-width: 768px) {
+    .smaller-cards .col {
+        max-width: 33%; /* Adjust the column width for medium devices */
+    }
+}
+.cards {
+    margin:auto ;/* Center the container horizontally */
+    padding: 2%;
+    /* background-color: red; */
+}
+.smaller-cards {
+    margin: 0; /* Reset margin to ensure it's centered properly */
+}
+
+.smaller-cards .col {
+    flex: 1 0 0; /* Ensure columns grow and shrink evenly */
+    max-width: 100%; /* Ensure cards don't exceed their container */
+}
+.btn-primary {
+    background-color: #6c757d; /* Customize background color */
+    border-color: #6c757d; /* Customize border color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Padding around text */
+    font-size: 1rem; /* Font size */
+    border-radius: 5px; /* Rounded corners */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+.btn-primary:hover {
+    background-color: #5a6268; /* Darker background color on hover */
+    border-color: #5a6268; /* Darker border color on hover */
+}

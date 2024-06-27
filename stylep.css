@@ -1,0 +1,203 @@
+.logo-palma {
+    width: 15%;
+}
+header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e3e7ea;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.container {
+    text-align: center;
+}
+.navbar {
+    background-color: #ACBB98; /* Background color of the navbar */
+    outline: #5C6D57 solid 5px;
+
+}
+
+.navbar li {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar li a {
+    text-decoration: none;
+    color: #5C6D57; /* Text color */
+    padding: 10px 15px;
+    font-family: OCR A Std, monospace;
+}
+
+.navbar li a:hover {
+    color: #4a2b13;
+}
+.navbar ul {
+    display: none; /* Hide dropdown menus by default */
+    position: absolute;
+    color: #5C6D57;
+    background-color: #ACBB98; /* Background color of the dropdown */
+    z-index: 1; /* Ensure dropdowns appear above other content */
+}
+
+.navbar li:hover > ul {
+    display: block; /* Show dropdown on hover */
+    margin-top: 230px; /* Optional: adjust spacing between navbar item and dropdown */
+}.content {
+    padding: 16px;
+  }
+.dropdown-item {
+    padding: 8px 12px; /* Padding inside dropdown items */
+    color: #333333; /* Text color */
+    display: block;
+    text-decoration: none; /* Remove underline from links */
+}
+
+.navbar .search-container {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .form-control {
+    width: 250px; /* search input */
+    height: 30px; /* search input */
+}
+
+.navbar .btn {
+    height: 30px; /* search button */
+    color: #004a2f;
+}
+.carousel-inner {
+    background-color: #5C6D57;
+}
+.search-container input[type="search"] {
+    flex: 1; /* Take remaining space */
+    margin-right: 20px;
+}
+h2 {
+    font-family: 'HelveticaBold';
+    color: #000;
+    text-align: center;
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+.text p{
+        font-size: 24px;
+        color: #000;
+        text-align: center;
+        font-weight: normal;
+        line-height: 1.2em;
+        font-family: "Lucida Console", "Courier New", monospace;
+        background-color: #ACBB98;
+        padding-bottom: 15px;
+        margin-bottom: 0px;
+}
+.text { 
+    outline: #5C6D57 solid 5px;
+    background-color: #ACBB98;
+}
+.card-body {
+    background-color: #ACBB98;
+}
+.card img {
+    width: 500px; /* Adjust as needed */
+    object-fit: cover;
+}
+.card {
+    background-color:#5C6D57 ;
+    outline: #5C6D57 solid 5px;
+}
+div.container.mt-5 {
+    padding: 2%;
+    background-color: #5C6D57;
+    width: 1300px;
+    height: 565px;
+}
+#bgcard {
+    width: 1520px;
+    height: 565.13px;
+    background-color: #ACBB98;
+    outline: #5C6D57 solid 40px;
+}
+.affiche {
+    outline: #5C6D57 solid 10px;
+}
+#bypalma {
+    background-color: #ACBB98;
+}
+/* Basic styling for the footer */
+
+.site-footer {
+    background-color: #a5ae99;
+    padding: 50px 0;
+    color: #555;
+    font-size: 14px;
+}
+
+.site-footer h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+.site-footer p {
+    margin-bottom: 20px;
+}
+
+.site-footer form {
+    max-width: 400px;
+}
+
+.site-footer .form-group {
+    margin-bottom: 20px;
+}
+
+.site-footer .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.site-footer .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.social-icons {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons li a {
+    color: #555;
+    font-size: 20px;
+}
+
+.social-icons li a:hover {
+    color: #007bff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .site-footer .row {
+        flex-direction: column;
+    }
+    .site-footer form {
+        max-width: 100%;
+    }
+}
+h1{
+    color: #5C6D57;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
